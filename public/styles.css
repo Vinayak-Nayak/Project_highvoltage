@@ -53,11 +53,14 @@ Use a more readable tab size (opinionated).
 #p{
   font-size: 3.8rem;
 }
+#correct{
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
 @media(max-width: 728px){
   #btn{
-    display: block;
     width: 80%;
-    margin-left: 20px;
+    margin-left: 60px;
   }
   #text{
     font-size: 28px;
@@ -71,8 +74,19 @@ Use a more readable tab size (opinionated).
     font-size: 25px;
   }
 }
-.col-6{
-  margin: 0;
+@media(max-width: 500px){
+  .container{
+    margin: 0;
+    padding: 0;
+  }
+  #btn{
+    width: 80%;
+    margin-left: 35px;
+  }
+  #correct{
+    font-size:  1.25rem;
+    line-height: 1.75rem;
+  }
 }
 html {
   -moz-tab-size: 4;
